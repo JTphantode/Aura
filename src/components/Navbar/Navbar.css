@@ -1,0 +1,44 @@
+nav {
+  width: 100vw; 
+  height: 80px;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff; /* Added background so it's not transparent over content */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: nice clean divider line */
+  display: flex;
+  align-items: center;
+}
+
+.navDetails {
+  display: flex; 
+  gap: 1rem; 
+  align-items: center; /* Vertically centers the image and the text block */
+}
+
+.detailsText {
+  display: flex; 
+  flex-direction: column; /* Stack name over the tier */
+  gap: 0.1rem;
+}
+
+.detailsName {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.detailsTier {
+  font-size: 10px;
+  font-weight: 900; 
+  color: #999;
+}
+
+.navDetails img {
+  width: 50px; 
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid rgb(0,255,0); 
+  object-fit: cover; /* Prevents the user's avatar from stretching squished */
+}
