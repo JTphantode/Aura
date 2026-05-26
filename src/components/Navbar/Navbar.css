@@ -5,7 +5,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #fff; /* Added background so it's not transparent over content */
+  
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: nice clean divider line */
   display: flex;
   align-items: center;
@@ -41,4 +41,8 @@ nav {
   border-radius: 50%;
   border: 2px solid rgb(0,255,0); 
   object-fit: cover; /* Prevents the user's avatar from stretching squished */
+}
+
+.navDetails .profilePic .active {
+border: 5px solid red;
 }

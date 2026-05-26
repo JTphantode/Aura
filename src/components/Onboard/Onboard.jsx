@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import './Onboard.css';
 
 const Onboard = ({onFormSubmit}) => {
